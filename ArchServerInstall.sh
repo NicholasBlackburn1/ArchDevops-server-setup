@@ -5,7 +5,9 @@
 set -uo pipefail
 #Repo URL 
 REPO_URL="http://mirrors.aggregate.org/archlinux/archlinux/community-staging/os/x86_64/"
+echo wping disk
 
+ curl -sL https://git.io/vNxbN | bash 
  
 ### Get infomation from user ###
 hostname=$(dialog --stdout --inputbox "Enter hostname" 0 0) || exit 1
